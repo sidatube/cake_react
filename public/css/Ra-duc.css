@@ -1,0 +1,25 @@
+.duc h5{
+    font-size: 14px;
+    color: #7c7979;
+}
+.duc{
+    text-align: left;
+}
+.duc a:hover{
+    color: #393939;
+    text-decoration: none;
+}
+.dic a{
+    color: #838282;
+    font-size: 14px;
+}
+.duc b{
+    font-size: 25px;
+    color: #4c4b4b;
+}
+.chusieunho{
+    font-size: 14px;
+    display: block;
+    border-top: 2px dotted #ddd;
+    padding: 5px 0;
+}

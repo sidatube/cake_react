@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    float: left;
+    width: 100%;
+}
+.header{
+    background-color: #d11a59;
+    color: white;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.ulngang{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.ulngang li{
+    list-style: none;
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.xuong{
+    padding-top: 5px;
+}
+.vuong{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+
+}
+.anhchinh{
+    float: none;
+    padding-left: 98px;
+}
+.dc{
+    font-size: 10px;
+}
+.linktrang{
+    color: white;
+}
+.linkkomau{
+    color: whitesmoke;
+}
+.linkkomau:hover{
+    color: white;
+    text-decoration: none;
+}
+.linktrang:hover{
+    color: white;
+    text-decoration: none;
+}
+.mautrang{
+    color: white;
+}
+.tron{
+    border-radius: 100%;
+}
+.xanhfb{
+    background-color: #3a589d;
+}
+.xanhins{
+    background-color: #3b6994;
+}
+.xanhdt{
+    background-color: #51cb5a;
+}
+.denmail{
+    background-color: #111111;
+}
+.searchform{
+    font-size: 25px;
+}
+.roll{
+    padding-right: -20px;
+    padding-left: -20px;
+}
+.dopin{
+    background-color: #cb2320;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.tuade{
+    color: #777;
+    text-transform: uppercase;
+
+}
+.tuade2{
+    color: #f1f1f1;
+    text-transform: uppercase;
+
+}
+.mau2{
+    color: #f1f1f1;
+}
+.ulnostyle{
+    list-style: none;
+    padding: 0;
+}
+.margintopbot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.benduoi1{
+    background-color: #777777;
+}
+.imgfooter{
+    max-width: 100%;
+}
+.add-to-cart{
+    text-align: center;
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    background-color: #d11a59;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background-color 300ms;
+}
+.add-to-cart:hover{
+    color: #ffffff;
+    background-color: #d11a1a;
+    text-decoration: unset;
+}
+.textright{
+    text-align: right;
+}
+.ss{
+    margin-top: 20px ;
+}
+.gach{
+    border-bottom: 1px solid #f1f1f1 ;
+    padding-bottom: 5px;
+}
+.vien{
+    border: 2px solid white;
+    margin-right: 5px;
+}
+.fb{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+.benduoi2{
+    background-color: #5b5b5b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #acacac ;
+}
+.nenfb{
+    background-color: unset;
+}
+.nenfb:hover{
+    background-color: #3a589d;
+}
+.nenins{
+    background-color: unset;
+}
+.nenins:hover{
+    background-color: #3b6994;
+}
+.nentele{
+    background-color: unset;
+}
+.nentele:hover{
+    background-color: #51cb5a;
+}
+.badge1 {
+    border: 2px solid #f1f1f1;
+}
+img{
+    max-width: 100%;
+}
+.abc{
+    float: right;
+    margin: 0;
+    position: fixed;
+    z-index: 10;
+    top: 85%;
+    right: 0%;
+}
+.size40{
+    font-size: 40px;
+}
+.linkxanh{
+    color: #28a4c9;
+    font-size: 40px;
+}
+.linkxanh:hover{
+    color: #28a4c9;
+}
+.aside{
+    float: left;
+    width: 25%;
+    padding-right: 15px;
+}
+
+.content{
+    float: left;
+    width: 75%;
+    padding-left: 15px;
+
+}
+.link{
+    text-decoration: none;
+    color: #333333;
+}.link:hover{
+     text-decoration: none;
+     color: #333333;
+ }
+.botron{
+    background-color: #d11a59;!important;
+    color: white;
+    font-size: 24px;
+    padding: 4px 16px;
+    border-radius: 99px;
+}
+.paddingtop{
+    padding-top: 30px;
+}
+.paddingtop2{
+    padding-top: 20px;
+}
+.gachc{
+    padding-bottom: 50px;
+}
+.vien1px{
+    border: 1px solid #f1f1f1;
+    border-right: 0;
+    outline: none;
+
+}
+.marginbot{
+    margin-bottom: 30px;
+}
+.bgachngang{
+    display: flex;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.bgachngang b{
+    display: block;
+    flex: 1;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+.bgachngang span{
+    margin: 0 15px;
+}
+.height300px{
+    height: 320px;
+}
+.borderright{
+    border-right: 2px solid #f1f1f1;
+}
+.borderleft{
+    border-left: 2px solid #f1f1f1;
+}
+.borderleft2{
+    border-left: 2px solid #f1f1f1;
+    padding-left: 20px;
+}
+.hovericon{
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+.boxcon p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.boxcon:hover i{
+    transform: scale(1.1);
+}
+.tenbanh{
+    height: 42px;
+    font-size: 18px;
+}
+.linkden{
+    color: #333333;
+}
+.linkden:hover{
+    color: #333333;
+    text-decoration: unset;
+}
+.chumo{
+    color: #a0a0a0;
+}
+.xem-them{
+     float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.ulnostyle2{
+    display: none;
+    list-style: none;
+}
+.font-size{
+    font-size: 18px;
+}
+.khubanh{
+    height: 50px;
+    text-transform: uppercase;
+}
+.nutan{
+background-color: unset;
+    border: none;
+    float: right;
+}
+.nutan:focus{
+    outline: none;
+}
+.nutsearch{
+    width: 40px;
+    height: 35px;
+}

@@ -25,9 +25,26 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootsrap 3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="lib/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="css/header+footer.css">
+    <link rel="stylesheet" href="css/home-thanh.css">
+    <link rel="stylesheet" href="css/banhngot - tú.css">
+    <link rel="stylesheet" href="css/aside-tu.css">
+    <link rel="stylesheet" href="css/review-tú.css">
+    <link rel="stylesheet" href="css/aquang.css">
+    <link rel="stylesheet" href="css/review-q.css">
+    <link rel="stylesheet" href="css/banhngot-tuan.css">
+    <link rel="stylesheet" href="css/Ra-duc.css">
+    <link rel="stylesheet" href="css/riviubanh-thanh.css">
+
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +56,31 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded",function() {
+      var menu = document.querySelectorAll('.nentrang');
+      var menu = menu[0];
+      //Truy xuất div menu
+      var trangthai="duoi300";
+      window.addEventListener("scroll",function(){
+        var x = pageYOffset;
+        if(x > 200){
+          if(trangthai == "duoi300")
+          {
+            trangthai="tren300";
+            menu.classList.add('cuonttrang');
+          }
+        }
+        else{
+          if(trangthai=="tren300"){
+            menu.classList.remove('cuonttrang');
+            trangthai="duoi300";}
+        }
+
+      })
+    })
+
+  </script>
+
   </body>
 </html>
